@@ -33,6 +33,7 @@ const myBucket = new AWS.S3({
 
 
 class Share extends React.Component {
+    console.log('share')
     constructor(props) {
         super(props);
 
